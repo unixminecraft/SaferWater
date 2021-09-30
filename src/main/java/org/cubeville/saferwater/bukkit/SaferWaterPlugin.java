@@ -2,7 +2,7 @@
  * This file is part of the SaferWater plugin for
  * Bukkit servers for Minecraft.
  *
- * Copyright (C) 2021 BSPF Systems, LLC (https://bspfsystems.org/)
+ * Copyright (C) 2021 Cubeville (https://www.cubeville.org/)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,7 +18,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bspfsystems.saferwater.bukkit;
+package org.cubeville.saferwater.bukkit;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -30,8 +30,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.bspfsystems.saferwater.bukkit.command.SaferWaterTabExecutor;
-import org.bspfsystems.saferwater.bukkit.listener.SaferWaterListener;
+import org.cubeville.saferwater.bukkit.command.SaferWaterTabExecutor;
+import org.cubeville.saferwater.bukkit.listener.SaferWaterListener;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.PluginCommand;
@@ -74,7 +74,7 @@ public final class SaferWaterPlugin extends JavaPlugin {
         this.logger.log(Level.INFO, "///////////////////////////////////////////////////////////////////////////");
         this.logger.log(Level.INFO, "//                                                                       //");
         this.logger.log(Level.INFO, "// SaferWater plugin for Bukkit servers for Minecraft.                   //");
-        this.logger.log(Level.INFO, "// Copyright (C) 2021 BSPF Systems, LLC (https://bspfsystems.org/)       //");
+        this.logger.log(Level.INFO, "// Copyright (C) 2021 Cubeville (https://www.cubevillle.org/)            //");
         this.logger.log(Level.INFO, "//                                                                       //");
         this.logger.log(Level.INFO, "// This program is free software: you can redistribute it and/or modify  //");
         this.logger.log(Level.INFO, "// it under the terms of the GNU General Public License as published by  //");

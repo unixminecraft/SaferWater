@@ -1,7 +1,7 @@
 name: SaferWater
-main: org.bspfsystems.saferwater.bukkit.SaferWaterPlugin
+main: org.cubeville.saferwater.bukkit.SaferWaterPlugin
 author: mciolkosz
-website: https://github.com/bspfsystems/SaferWater/
+website: https://github.com/unixminecraft/SaferWater/
 version: 1.0.0
 api-version: 1.16
 

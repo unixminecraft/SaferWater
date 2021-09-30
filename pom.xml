@@ -2,7 +2,7 @@
   ~ This file is part of the SaferWater plugin for
   ~ Bukkit servers for Minecraft.
   ~
-  ~ Copyright (C) 2021 BSPF Systems, LLC (https://bspfsystems.org/)
+  ~ Copyright (C) 2021 Cubeville (https://www.cubeville.org/)
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -21,18 +21,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>org.bspfsystems</groupId>
-    <artifactId>saferwater-bukkit</artifactId>
+    <groupId>org.cubeville</groupId>
+    <artifactId>saferwater</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>SaferWater</name>
     <description>A plugin for Minecraft Bukkit servers that makes the underwater world a bit safer.</description>
-    <url>https://github.com/bspfsystems/SaferWater/</url>
-    <organization>
-        <name>BSPF Systems, LLC</name>
-        <url>https://bspfsystems.org/</url>
-    </organization>
+    <url>https://github.com/unixminecraft/SaferWater/</url>
     
     <licenses>
         <license>
@@ -45,21 +41,14 @@
         <developer>
             <name>Matt Ciolkosz</name>
             <email>mciolkosz@bspfsystems.org</email>
-            <organization>BSPF Systems, LLC</organization>
-            <organizationUrl>https://bspfsystems.org/</organizationUrl>
         </developer>
     </developers>
     
     <scm>
-        <connection>scm:git:git@github.com:bspfsystems/SaferWater.git</connection>
-        <developerConnection>scm:git:git@github.com:bspfsystems/SaferWater.git</developerConnection>
-        <url>git@github.com:bspfsystems/SaferWater.git</url>
+        <connection>scm:git:git@github.com:unixminecraft/SaferWater.git</connection>
+        <developerConnection>scm:git:git@github.com:unixminecraft/SaferWater.git</developerConnection>
+        <url>git@github.com:unixminecraft/SaferWater.git</url>
     </scm>
-    
-    <issueManagement>
-        <system>GitHub</system>
-        <url>https://github.com/bspfsystems/SaferWater/issues/</url>
-    </issueManagement>
     
     <repositories>
         <repository>

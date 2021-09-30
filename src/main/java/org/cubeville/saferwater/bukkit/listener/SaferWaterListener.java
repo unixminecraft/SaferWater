@@ -2,7 +2,7 @@
  * This file is part of the SaferWater plugin for
  * Bukkit servers for Minecraft.
  *
- * Copyright (C) 2021 BSPF Systems, LLC (https://bspfsystems.org/)
+ * Copyright (C) 2021 Cubeville (https://www.cubeville.org/)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,12 +18,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bspfsystems.saferwater.bukkit.listener;
+package org.cubeville.saferwater.bukkit.listener;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.bspfsystems.saferwater.bukkit.SaferWaterPlugin;
-import org.bspfsystems.saferwater.bukkit.command.SaferWaterTabExecutor;
+import org.cubeville.saferwater.bukkit.SaferWaterPlugin;
+import org.cubeville.saferwater.bukkit.command.SaferWaterTabExecutor;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
