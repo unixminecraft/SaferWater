@@ -3,7 +3,7 @@ main: org.cubeville.saferwater.bukkit.SaferWaterPlugin
 author: mciolkosz
 website: https://github.com/unixminecraft/SaferWater/
 version: 1.0.0
-api-version: 1.16
+api-version: 1.18
 
 commands:
   saferwater:
